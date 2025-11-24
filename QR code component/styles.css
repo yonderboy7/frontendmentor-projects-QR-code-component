@@ -1,0 +1,57 @@
+:root {
+  --slate-900: rgb(31,9,79);
+  --slate-500: rgb(104, 119, 141);
+  --slate-300: rgb(213, 225, 239);
+  --blue-500: #2C7DFA;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--slate-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+}
+
+img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 320px;
+  height: 499px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; 
+  align-items: center;
+}
+
+.qr-code {
+  margin: 1rem;
+}
+
+.description {
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+}
+
+.title {
+  color: var(--slate-900);
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
+.subtitle {
+  color: var(--slate-500);
+  font-size: 15px;
+  line-height: 140%;
+  margin: 0;
+}
